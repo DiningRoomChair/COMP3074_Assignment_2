@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_general_schedule"
+        android:title="General Schedule" />
+    <item
+        android:id="@+id/item_my_schedule"
+        android:title="My Schedule" />
+    <item
+        android:id="@+id/item_speakers"
+        android:title="Speakers" />
+    <item
+        android:id="@+id/item_maps"
+        android:title="Maps" />
+    <item
+        android:id="@+id/item_attendees"
+        android:title="Attendees" />
+    <item
+        android:id="@+id/item_sponsors"
+        android:title="Sponsors" />
+    <item
+        android:id="@+id/item_twitter"
+        android:title="Twitter" />
+</menu>

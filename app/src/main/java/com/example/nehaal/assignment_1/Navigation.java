@@ -55,6 +55,12 @@ public class Navigation extends AppCompatActivity {
                 startActivity(i7);
                 return true;
 
+            case R.id.item_survey:
+                Intent i8 = new Intent(Navigation.this,Survey.class);
+                startActivity(i8);
+                return true;
+
+
             default:
                 Toast.makeText(this,"default",Toast.LENGTH_LONG).show();
         }

@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Assignment_1</string>
     <string name="title_activity_attendees">Attendees</string>
+    <string name="question1">What is your name?</string>
+    <string name="question2">What is your favorite color?</string>
+    <string name="question3">What is the airspeed velocity of an unladen swallow?</string>
+    <string name="surveySubmit">Submit Answers</string>
 </resources>

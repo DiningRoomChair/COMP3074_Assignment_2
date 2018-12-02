@@ -43,7 +43,9 @@
             android:name=".details_activity"
             android:launchMode="singleInstance" />
         <activity android:name=".details" />
-        <activity android:name=".display"></activity>
+        <activity android:name=".display" />
+        <activity android:name=".Survey">
+        </activity>
     </application>
 
 </manifest>

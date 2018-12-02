@@ -1,6 +1,7 @@
 package com.example.nehaal.assignment_1;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,6 +36,11 @@ public class Speakers extends Navigation {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_speakers);
+
+        SharedPreferences sharedpreferences = getSharedPreferences("com.example.nehaal.assignment1", MODE_PRIVATE);
+        String username = sharedpreferences.getString("username", "");
+
+        setTitle("Hello, " + username + ".");
 
         db = new DatabaseHelper(this);
 

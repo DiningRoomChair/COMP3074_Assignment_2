@@ -39,7 +39,7 @@
     <EditText
         android:id="@+id/txtUser"
         android:layout_width="166dp"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
         android:layout_marginBottom="380dp"
@@ -65,7 +65,7 @@
     <EditText
         android:id="@+id/txtPass"
         android:layout_width="179dp"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="292dp"
@@ -83,6 +83,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="188dp"
+        android:onClick="loginClick"
         android:text="Log In"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         app:layout_constraintBottom_toBottomOf="parent"
